@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Les bases de la caisse S2Cash by ATLAS
+# Les bases de la gestion S2Cash by ATLAS
 
 ## Introduction
 
