@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[634],{5:(e,s,n)=>{n.r(s),n.d(s,{default:()=>u});n(6289),n(797),n(699),n(9303);n(4848);var t=n(6540);function u(){return(0,t.useEffect)((()=>{window.location.href="https://www.seg2inov.fr"}),[]),null}}}]);
