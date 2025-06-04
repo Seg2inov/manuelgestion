@@ -1,6 +1,6 @@
 {
-  "label": "Prix, promotions et coupons",
-  "position": 5,
+  "label": "Les commandes",
+  "position": 7,
   "link": {
     "type": "generated-index",
     "description": "Vous trouverez tout ce qui concerne la gestion des prix, des promotions, des actions commerciales et des coupons."
