@@ -101,6 +101,54 @@ export default  {
         description : "Cette option permet d’effectuer vos inventaires partiels ou en totalité.",
         theme : "Lorsque vous créez un inventaire, un gel du stock est effectué (image du stock à l’instant T) et permettra une mise à jour en décalé des stocks lors de la validation. Dès lors que la comptabilisation des produits est faite, les ventes peuvent reprendre. Créer l'inventaire créer l'inventaire  	Générer un nouvel inventaire avec la totalité des produits. Générer un nouvel inventaire avec les produits d’un fournisseur. 	Modifier un inventaire en cours. Une fois dans l’inventaire, il vous faut renseigner la colonne stock réel correspondant à votre comptage. Selon le paramétrage, la colonne PUMP peut être modifiée. Pour rappel, le PUMP est le Prix Unitaire Moyen Pondéré, aussi appelé parfois CUMP pour Coût Unitaire Moyen Pondéré. Cette valeur correspond à la moyenne des prix d’achats d’un produit, pour peu que les réceptions soient toutes saisies et validées. Il est possible d’imprimer un état de saisie préparatoire pour écrire les quantités par produit. A la validation, un état de la saisie et des écarts est généré. Les stocks sont mis à jour par différence et enregistrés dans vos historiques."
     },
+    {
+        title : "Actions commerciales",
+        link : "/docs/prix-promotions/actions-commerciales",
+        description : "S2Cash vous propose une multitude d’actions commerciales programmables en avance.",
+        theme : "action commerciale ACTION COMMERCIALE ACTIONS COMMERCIALES A l’ouverture de la fenêtre, la liste de toutes les actions commerciales en cours apparaît. Le tableau en bas de l'écran vous permet de gérer la fidélité par point avec une valorisation variable en demi-journée sur la semaine. Si vous faites une remise sur total, celle-ci est prioritaire et ne se cumule pas avec une action commerciale. Si le client sélectionné lors de la vente bénéficie d’une remise automatique, celle-ci est prioritaire et ne se cumule pas avec une action commerciale. Lorsque vous cliquez sur CREATION, la fenêtre de sélection du type d’action apparait. Créer une action commerciale fidelite Fidelite Fidélité Créer une action commerciale creer une "
+    },
+    {
+        title : "Contrôle des prix",
+        link : "/docs/prix-promotions/controle-prix",
+        description : "Cette fonctionnalité permet de réaliser un audit de prix, c’est-à-dire d’imprimer un listing de produits avec leur prix afin d’éventuellement les comparer avec ceux de la concurrence.",
+        theme : "controle des prix CONTROLE DES PRIX Controle des prix Pour créer un nouvel audit, appuyer sur NOUVEAU. Cette page s’ouvre alors : Vous pouvez nommer et dater le contrôle de prix. 	Editer des étiquettes pour les produits choisis "
+    },
+    {
+        title : "Mise à jour des motifs de remise",
+        link : "/docs/prix-promotions/mise-a-jour-motifs-remise",
+        description : "Cette fenêtre vous permet de gérer les motifs de remise.",
+        theme : "mise a jour mise à jour MISE A JOUR  Saisissez un code disponible en suivant ceux déjà en place, Attribuez un nom à ce motif de remise, Renseignez éventuellement le pourcentage de la remise qui sera impacté au fournisseur (sur ETATS DE RETROCESSION). Vous pouvez enregistrer les modifications, ou supprimer un enregistrement. retrocession Retrocession Rétrocession "
+    },
+    {
+        title : "Suivi des promotions",
+        link : "/docs/prix-promotions/suivi-des-promotions",
+        description : "Cette fonction vous permet de préparer vos promotions et changements de prix à l’avance.",
+        theme : "Pour créer une nouvelle promotion, appuyez sur NOUVEAU, puis sélectionnez le produit concerné Si aucune date de fin n’est renseignée, un changement de prix sera appliqué à partir de la date de début. 	Ce bouton permet de générer une affiche pour le produit et de l’ajouter aux médias (images qui défilent sur l’écran côté client). 	Cliquez sur ce bouton pour accéder à l’interface de gestion des médias. Gestion des médias gestion des medias Pour ajouter un média à partir d’un fichier image, cliquer sur le bouton PHOTOS et sélectionnez votre image. Pour supprimer un média, il vous suffit de cliquer dessus. supprimer media supprimer médias"
+    },
+    {
+        title : "Suivi des coupons",
+        link : "/docs/prix-promotions/suivi-coupons",
+        description : "Cet onglet permet d’afficher la liste des coupons. Par défaut, c’est la liste des coupons actifs qui s’affiche, c’est-à-dire les coupons qui n’ont pas encore été récupérés par la caisse.",
+        theme : "Vous pouvez afficher la liste des coupons inactifs, c’est-à-dire ceux qui ne sont plus valables. Si vous cliquez à nouveau dessus, la liste des coupons actifs s’affichent à nouveau. Celui-ci ne sera donc plus consultable dans le suivi des coupons, et il ne sera plus valable en caisse. Le coupon est alors supprimé.  Vous pouvez supprimer un coupon."
+    },
+    {
+        title : "Contrôle des ventes",
+        link : "/docs/ventes/controle-des-ventes",
+        description : "Cet onglet permet d’afficher la liste des coupons. Par défaut, c’est la liste des coupons actifs qui s’affiche, c’est-à-dire les coupons qui n’ont pas encore été récupérés par la caisse.",
+        theme : "contrôle des ventes CONTROLE DES VENTES controle des ventes controle de vente Cette fonctionnalité permet de voir s’il y a un écart dans les tickets, c’est-à-dire entre l’en-tête d’un ticket et son détail. Vous pouvez sélectionner la date ou la période pour laquelle vous souhaitez faire la recherche. La liste des tickets contenant un écart s’affiche"
+    },
+    {
+        title : "Hit parade des ventes",
+        link : "/docs/ventes/hit-parade-des-ventes",
+        description : "Cette option regroupe toutes les statistiques nécessaires au bon suivi de votre point de vente.",
+        theme : "HIT PARADE DES VENTES hit parade des ventes hit parade de ventes Déterminez les dates de début et de fin de la période recherchée, et cliquez sur l’analyse que vous souhaitez afficher : Pour chaque analyse, S2Cash affiche les données par ligne et un récapitulatif en bas d’écran pour la totalité des informations sur la période sélectionnée. 	Récapitulatif du chiffre d'affaires par tranche horaire.  Récapitulatif du chiffre d’affaires réalisé par vendeur.  Liste des remises et des actions commerciales.  	Récapitulatif du chiffre d’affaires par moyen de paiement. 	Liste des annulations et des retours. Liste des ventes et des achats par produit, rayon, famille ou fournisseur.  	Récapitulatif du chiffre d’affaires, nombre de clients et panier moyen par rayon. Déclaration de la TVA par jour ou par rayon.  Détail de la marge sur la casse pour chaque produit.  Détail des remises produit par producteur.  Obtenir le détail de la ligne sélectionnée.  Imprimer les informations.  Comme dans tous les tableaux générés par S2Cash, vous avez la possibilité d’exporter les données directement vers Excel, en faisant un clic sur le bord supérieur droit du tableau."
+    },
+    {
+        title : "Journal des ventes",
+        link : "/docs/ventes/journal-des-ventes",
+        description : "S2Cash enregistre tous les mouvements de vente et de gestion dans un journal électronique qui pourra être utilisé comme pièce justificative lors de contrôle comptable – financier – juridique – fiscal.",
+        theme : "journal des ventes journal de ventes JOURNAL DES VENTES Saisissez la date recherchée et lancez le traitement par la touche RECHERCHE. La partie basse de l’écran affiche le détail de la ligne du mouvement sur laquelle vous êtes positionné.  S’il s’agit d’une vente, vous pouvez consulter la fiche du produit sur lequel vous êtes positionné.  	S’il s’agit d’une action rattachée à un client, vous pouvez consulter la fiche du client concerné.  	S’il s’agit d’une action rattachée à un fournisseur, vous pouvez consulter la fiche du fournisseur concerné. 	Vous pouvez imprimer le journal en totalité. "
+    },
     
     ]
 }
